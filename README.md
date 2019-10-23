@@ -1,9 +1,10 @@
-#Install package
+<h1>Install package</h1>
 
     In folder /src:
     pip3 install -r requirements.txt
 
-#Run scrapper
+<h1>Run scrapper</h1>
+
 
     python3 main.py with arguments
     
@@ -27,12 +28,14 @@
     python3 main.py -p mieszkanie -rt wynajem -c warszawa -d bemowo
 
 
-#Additional info
+<h1>Additional information</h1>
+
     Scrapper create dirs /img & /json collaterally to /src dir
     In /img dir scrapper saves all photos
     In /json dir scrapper saves info from Query in JSON format
     
-#How it works
+<h1>How it works</h1>    
+
     Scraper downloads all pages from category based on user args input
     
     If scrapper will not find any page the error will be thrown
